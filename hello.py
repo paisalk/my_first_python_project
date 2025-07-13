@@ -7,6 +7,10 @@ def greet(name):
     """Return a greeting message"""
     return f"Hello, {name}! Welcome to Git!"
 
+def multiply(a, b):
+    """Multiply two numbers and return the result"""
+    return a * b
+
 def main():
     """Main function"""
     name = input("What's your name? ")
